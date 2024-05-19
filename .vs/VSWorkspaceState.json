@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\(auth)",
+    "\\app\\(auth)\\(routes)",
+    "\\app\\(auth)\\(routes)\\sign-in",
+    "\\app\\(auth)\\(routes)\\sign-in\\[[...sign-in]]",
+    "\\app\\(dashboard)",
+    "\\app\\(dashboard)\\(routes)",
+    "\\app\\(dashboard)\\(routes)\\dashboard",
+    "\\app\\(dashboard)\\(routes)\\dashboard\\conversation",
+    "\\components"
+  ],
+  "SelectedNode": "\\app\\(dashboard)\\(routes)\\dashboard\\page.tsx",
+  "PreviewInSolutionExplorer": false
+}
