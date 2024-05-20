@@ -100,7 +100,7 @@ return (
                     <Input
                       className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                       disabled={isLoading} 
-                      placeholder="Сольное пианино" 
+                      placeholder="Сольная игра на пианино" 
                       {...field}
                     />
                   </FormControl>
@@ -109,7 +109,7 @@ return (
             />
                <Button className="col-span-12 lg:col-span-2
                w-full" disabled={isLoading}>
-                Generate 
+                Сгенерировать 
                </Button>
              </form>
            </Form>
@@ -122,10 +122,10 @@ return (
                 </div>
             )}
           {!music && !isLoading && (
-            <Empty label="No music generated." />
+            <Empty label="Музыка не сгенерирована." />
           )}
           {music && !isLoading && (
-            <Empty label="No music generated." />
+            <Empty label="Музыка не сгенерирована." />
           )}
           {music &&(
             <audio controls className="w-full mt-8">

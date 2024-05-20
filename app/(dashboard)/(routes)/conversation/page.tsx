@@ -71,7 +71,7 @@ const ConversationPage = () => {
 return ( 
   <div>
     <Heading
-      title="Conversation"
+      title="Беседа"
       description="Наша самая продвинутая модель для общения."
       icon={MessageSquare}
       iconColor="text-violet-500"
@@ -111,7 +111,7 @@ return (
               )}
             />
             <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
-              Generate
+              Начать
             </Button>
           </form>
         </Form>
@@ -123,7 +123,7 @@ return (
           </div>
         )}
         {messages.length === 0 && !isLoading && (
-          <Empty label="No conversation started." 
+          <Empty label="Общение не начато." 
           />
         )}
         <div className="flex flex-col-reverse gap-y-4">

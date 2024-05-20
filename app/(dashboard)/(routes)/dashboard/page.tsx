@@ -16,35 +16,35 @@ import { useRouter } from "next/navigation";
 
 const tools = [
   {
-  label:"Conversation",
+  label:"Общение",
   icon: MessageSquare,
   color: "text-violet-500",
   bgColor: "bg-violet-500/10",
   href: "/conversation"
   },
   {
-  label:"Music Generation",
+  label:"Генерация музыки",
   icon: Music,
   color: "text-emerald-500",
   bgColor: "bg-emerald-500/10",
   href: "/music"
   },
   {
-  label:"Image Generation",
+  label:"Генерация фото",
   icon: ImageIcon,
   color: "text-pink-700",
   bgColor: "bg-pink-700/10",
   href: "/image"
   },
   {
-  label:"Video Generation",
+  label:"Генерация видео",
   icon: VideoIcon,
   color: "text-orange-700",
   bgColor: "bg-orange-700/10",
   href: "/video"
   },
   {
-  label:"Code Generation",
+  label:"Генерация кода",
   icon: Code,
   color: "text-green-700",
   bgColor: "bg-green-700/10",
@@ -58,7 +58,7 @@ const DashboardPage = () => {
     <div>
       <div className="mb-8 space-y-4">
         <h2 className="text-2xl md:text-4xl font-bold text-center">
-        Исследуйте все возможности ИИ
+        Исследуйте возможности ИИ
         </h2>
         <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
         Общайтесь с самым умным ИИ — испытайте ее силу 

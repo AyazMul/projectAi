@@ -181,7 +181,7 @@ return (
                />
                <Button className="col-span-12 lg:col-span-2
                w-full" disabled={isLoading}>
-                Generate 
+                Сгенерировать 
                </Button>
              </form>
            </Form>
@@ -194,7 +194,7 @@ return (
             )}
           {images.length === 0 && !isLoading && (
             
-            <Empty label="No images generated."/>
+            <Empty label="Изображение не сгенерировано."/>
           )}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
           xl:grid-cols-4 gap-4 mt-8">
@@ -217,7 +217,7 @@ return (
                     className="w-full"
                     >
                     <Download className="h-4 w-4 mr-2" />
-                    Download
+                    Скачать
                   </Button>
                 </CardFooter>          
               </Card>

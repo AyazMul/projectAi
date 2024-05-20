@@ -8,8 +8,8 @@ import { ToasterProvider } from '@/components/toaster-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'OpenAyze',
-  description: 'AI platform',
+  title: 'MindMedia',
+  description: 'ИИ платформа',
 }
 
 export default function RootLayout({

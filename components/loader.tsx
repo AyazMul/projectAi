@@ -13,7 +13,7 @@ export const Loader = () => {
         
         </div>
         <p className="text-sm text-muted-foreground">
-           OpenAyz is thinking...
+         MindMedia думает...
         </p>
        </div>
     );

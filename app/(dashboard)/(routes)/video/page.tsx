@@ -68,7 +68,7 @@ return (
   <div>
     <Heading
       title="Генерация видео"
-      description="Введи запрос и получи видео."
+      description="Введите запрос и получите видео."
       icon={VideoIcon}
       iconColor="text-orange-700"
       bgColor="bg-orange-700/10"
@@ -108,7 +108,7 @@ return (
             />
                <Button className="col-span-12 lg:col-span-2
                w-full" disabled={isLoading}>
-                Generate 
+                Сгенерировать 
                </Button>
              </form>
            </Form>
@@ -121,7 +121,7 @@ return (
                 </div>
             )}
           {!video && !isLoading && (
-            <Empty label="No music generated." />
+            <Empty label="Видео не сгенерировано." />
           )}
           {video && (
             <video className="w-full asepct-video mt-8rounded-lg border
